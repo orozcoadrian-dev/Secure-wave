@@ -1,7 +1,6 @@
 /* Head Web */
 
-@font-face 
-{
+@font-face {
     font-family: SecureWave-Titles;
     src: url(../Font/SpaceGrotesk-Bold.ttf) format('truetype');
     font-weight: 700;
@@ -9,29 +8,25 @@
 
 /* Web Body */
 
-@font-face 
-{
+@font-face {
     font-family: SecureWave-Regular;
     src: url(../Font/Inter_24pt-Regular.ttf) format('truetype');
     font-weight: 400;
 }
 
-@font-face 
-{
+@font-face {
     font-family: SecureWave-Bold;
     src: url(../Font/Inter_24pt-Bold.ttf) format('truetype');
     font-weight: 700;
 }
 
-@font-face 
-{
+@font-face {
     font-family: SecureWave-Light;
     src: url(../Font/Inter_24pt-Light.ttf) format('truetype');
     font-weight: 200;
 }
 
-@font-face 
-{
+@font-face {
     font-family: SecureWave-Italic;
     src: url(../Font/Inter_24pt-Italic.ttf) format('truetype');
     font-weight: 400;
