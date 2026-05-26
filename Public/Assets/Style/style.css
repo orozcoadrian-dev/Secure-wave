@@ -185,3 +185,83 @@ h1 {
 {
     color: #9D28D9;
 }
+
+.services-presentation
+{
+    margin-top: 2.2em;
+    box-sizing: border-box;
+    width: 100%;
+    height: 740px;
+    background: linear-gradient(to bottom, #0E0E13, #0E0A16);
+}
+
+.containt-information
+{
+    box-sizing: border-box;
+    width: 100%;
+    padding: 1.2em 2.5em;
+    background: #18181F;
+    margin-bottom: 2em;
+}
+
+#subtitle-sp
+{
+    font-family: 'SecureWave-Titles';
+    color: #9D28D9;
+    text-transform: uppercase;
+    font-size: 2.8em;
+    margin-bottom: 0.4em;
+    letter-spacing: 0.098em;
+}
+
+.paragraph-sp
+{
+    margin-top: 0.6em;
+    font-family: 'SecureWave-Regular';
+    color: #F8FAFC;
+    font-size: 1.1em;
+}
+
+.service-one, .service-two, .service-three
+{
+    /* border: 1px solid red; */
+    width: 25%;
+    height: 54%;
+    padding: 1.2em 2em;
+    margin: 2em 0 0 2.1em;
+    background-color: #18181F;
+    border-radius: 10px;
+    display: inline-block;
+    box-shadow: 0 0 20px 0 #280c54;
+}
+
+
+.images-section2-services
+{
+    width: 360px;
+    height: 260px;
+}
+
+
+.card-services
+{
+    margin-top: 2.2em;
+    width: 100%;
+
+}
+
+.name-services-sc
+{
+    font-family: 'SecureWave-Titles';
+    color: #F8FAFC;
+    text-align: center;
+    text-decoration: underline;
+    letter-spacing: 0.098em;
+}
+
+.description-services-sc
+{
+    font-family: 'SecureWave-Light';
+    color: #94A3B8;
+    text-align: justify;
+}
