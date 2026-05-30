@@ -145,6 +145,7 @@ body
 .business-presentation {
     background-color: #18181F;
     padding: 25px;
+    margin-top: 5.5em;
 }
 
 h1 {
@@ -188,7 +189,7 @@ h1 {
 
 .services-presentation
 {
-    margin-top: 2.2em;
+    margin-top: 4.5em;
     box-sizing: border-box;
     width: 100%;
     height: 740px;
@@ -263,5 +264,67 @@ h1 {
 {
     font-family: 'SecureWave-Light';
     color: #94A3B8;
-    text-align: justify;
+    text-align: center;
+}
+
+.why-should-you-choose-presentation
+{
+    width: 100%;
+    height: 600px;
+    margin: 4.5em 0 5em 0;
+    padding: 1.5em;
+    background: #18181F;
+    box-sizing: border-box;
+}
+
+.h2-why-choose-us
+{
+    font-family: 'SecureWave-Titles';
+    color: #F8FAFC;
+    text-decoration: underline;
+    margin-bottom: 1.2em;
+    text-transform: uppercase;
+    font-size: 2.8em;
+    text-align: center;
+}
+
+.table-selection
+{
+    margin-top: 1.2em;
+    margin-left: 15em;
+    font-family: 'SecureWave-Regular';
+    text-align: center;
+    background-color: #23232a;
+    margin-bottom: 2em;
+    box-shadow: 0 0 20px 0 #A855F7;
+    border-radius: 10px;
+}
+
+th,td
+{
+    padding: 1em;
+    border: 1px solid #292931;
+    border-radius: 10px;
+}
+
+.thead-choose-us
+{
+    font-family: 'SecureWave-Bold';
+    color: #9D28D9;
+    text-transform: uppercase;
+}
+
+.tbody-choose-us
+{
+    font-family: 'SecureWave-Regular';
+    color: #F8FAFC;
+    
+}
+
+.paragraph-why-choose-us
+{
+    margin-top: 2em;
+    color: #94A3B8;
+    font-family: 'SecureWave-Light';
+    text-align: center;
 }
