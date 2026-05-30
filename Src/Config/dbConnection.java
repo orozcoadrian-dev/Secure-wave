@@ -1,9 +1,9 @@
-package Src.Controller;
+package Src.Config;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
-public class dbConection {
+public class dbConnection {
 
     private static final String DRIVER = "com.mysql.cj.jdbc.Driver";
     private static final String HOST = "localhost";
