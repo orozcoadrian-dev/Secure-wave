@@ -400,4 +400,38 @@ th,td
     margin-top: 0;
 }
 
+.secure-wave-history
+{
+    width: 100%;
+    height: 690px;
+    margin-top: 4.5em;
+    box-sizing: border-box;
+    padding: 1em 2.5em 0 2.5em;
+    background:linear-gradient(to bottom, #280c54, #18181F);
+}
 
+.container-history
+{
+    margin: 0;
+    padding: 2em;
+}
+
+.title-secure-wave-history
+{
+    font-family: 'SecureWave-Titles';
+    color: #F8FAFC;
+    text-transform: uppercase;
+    text-shadow: 0 0 20px #8B5CF6;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 4.5em;
+    text-align: center;
+    letter-spacing: 0.098em;
+}
+
+.paragraph-secure-wave-history
+{
+    font-family: 'SecureWave-Regular';
+    color:#F8FAFC;
+    text-align: justify;
+}
