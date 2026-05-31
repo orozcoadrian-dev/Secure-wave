@@ -114,7 +114,7 @@ body
 }
 
 /* CTA Button */
-.btn-start {
+.btn-start, #submit-datas {
     display: inline-block;
     text-decoration: none;
     font-family: 'SecureWave-Bold', sans-serif;
@@ -130,13 +130,13 @@ body
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
-.btn-start:hover {
+.btn-start:hover, #submit-datas:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 22px rgba(157, 40, 217, 0.6);
     background: linear-gradient(135deg, #7C3AED, #A78BFA);
 }
 
-.btn-start:active {
+.btn-start:active, #submit-datas:active {
     transform: translateY(0);
     box-shadow: 0 3px 10px rgba(109, 40, 217, 0.4);
 }
@@ -434,4 +434,144 @@ th,td
     font-family: 'SecureWave-Regular';
     color:#F8FAFC;
     text-align: justify;
+}
+
+.contact-form
+{
+    width: 100%;
+    height: 1300px;
+    background-color: #18181F;
+    box-sizing: border-box;
+    margin-top: 4.5em;
+}
+
+.container-introduction-form
+{
+    width: auto;
+    height: 120px;
+    padding: 1.3em 0 0 2.5em;
+}
+
+.title-form
+{
+    font-family: 'SecureWave-Titles';
+    font-size: 2.8em;
+    margin-bottom: 0.3em;
+    margin-top: 0.3em;
+    color: #F8FAFC;
+}
+
+.paragraph-form
+{
+    font-family: 'SecureWave-Light';
+    margin-top: 0.3em;
+    color: #94A3B8;
+}
+
+.container-form
+{
+    width: 100%;
+    height: 600px;
+    padding: 4em 0 4em 0;
+}
+
+.form-contact-request
+{
+    width: 50%;
+    height: 1020px;
+    background-color: #23232a;
+    border: 1px solid #292931;
+    box-shadow: 0 0 12px 0 #8B5CF6;
+    border-radius: 12px;
+    margin-left: 21em;
+    padding: 1.2em;
+    padding-right: 2em;
+} 
+
+.legend-contact-form
+{
+    font-family: 'SecureWave-Titles';
+    color: #9E9EAA;   
+    font-size: 0.6em;
+    text-transform: uppercase;
+}
+
+.fieldset-contact-form, .fieldset-contact-form-contactdetails, .fieldset-contact-form-message
+{
+    width: 98%;
+    border: 1px solid #292931;
+    border-radius: 4px;
+    padding: 1.2em 1em 1.5em 1em ;
+    margin-top: 0.6em;
+}
+
+.fieldset-contact-form-contactdetails, .fieldset-contact-form-message
+{
+    margin-top: 2.2em;
+}
+
+.labels-firstname, .label-middlename, .label-lastname, .label-secondlastname, .label-email, .label-company, .label-message
+{
+    font-family: 'SecureWave-Bold';
+    color: #A78BFA;
+    font-size: 0.9em;
+    margin-bottom: 0.7em;
+    text-transform: uppercase;
+}
+
+#input-firstname, #input-middlename, #input-lastname, #input-secondlastname, #input-email, #input-company, #message-form-contact
+{
+    width: 95%;
+    padding: 0.8em 0.9em;
+    background-color: #292931 ;
+    font-family: 'SecureWave-Regular';
+    color: #9E9EAA;
+    border: none;
+    border-left: 1px solid #A78BFA;
+    border-bottom: 1px solid #A78BFA;
+    margin-top: 0.7em;
+}
+
+#message-form-contact
+{
+    height: 130px;
+    resize: none;
+}
+
+#input-firstname, #input-middlename, #input-lastname, #input-email
+{
+    margin-bottom: 2em;
+}
+
+.label-middlename, .label-lastname, .label-secondlastname, .label-company
+{
+    margin-top: 2em;
+}
+
+#submit-datas
+{
+    margin-top: 1.2em;
+    text-transform: uppercase;
+    margin-left: 16em;
+    margin-bottom: 0.3em;
+}
+
+.terms-conditions
+{
+    color: #9E9EAA;
+    font-family: 'SecureWave-Regular';
+    margin-top: 0.3em;
+}
+
+
+.terms-conditions, .terms-conditions:visited {
+    color: #9E9EAA; 
+}
+
+
+#terms-conditions-checkbox
+{
+    margin-top: 1.2em;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer
 }
