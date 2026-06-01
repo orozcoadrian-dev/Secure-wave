@@ -576,17 +576,89 @@ th,td
     cursor: pointer
 }
 
+/* Aliados  */
 .allied-partnes
 {
+    width: 100%;
+    height: 1000px;
+    background-color:#18181F;
+    box-sizing: border-box;
+    margin-top: 4.5em;
+    padding: 2.5em 0 0 2.5em;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
 
+#h2-allied-partners
+{
+    font-family: 'SecureWave-Titles';
+    font-size: 2.8em;
+    margin-top: 0;
+    color: #F8FAFC;
+    text-shadow: 0 0 10px #6D28D9;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.card-allied-pts
+{
+    width: 25%;
+    height: 320px;
+    margin: 2em 2em 0 3.5em;
+    background-color: #292931;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 0 20px 0 #23232a;
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.card-allied-pts:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0 10px 30px rgba(109, 40, 217, 0.35);
+}
+
+
+.card-allied-pts, .card-allied-pts-ii
+{
+    display: inline-block;
+    vertical-align: top;
 }
 
 .container-images-ap-class
 {
-
+    box-sizing: border-box;
 }
+
+.images-allied-partners
+{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
 
 .information-ap-class
 {
-    
+    box-sizing: border-box;
+    padding: 1.2em;
+}
+
+.h3-allied-partnerss
+{
+    font-family: 'SecureWave-Bold';
+    color: #9E9EAA;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 1em;
+    cursor: default;
+}
+
+.paragraph-allied-partners
+{
+    font-family: 'SecureWave-Light';
+    text-align: center;
+    color: #94A3B8;
+    padding-top: 4em;
 }
