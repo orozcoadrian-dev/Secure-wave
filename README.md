@@ -1,4 +1,4 @@
-![image alt](https://github.com/orozcoadrian-dev/secure-wave/blob/0125678e472d48137b0cd82bcabe71fb08fcfaef/Public/Assets/Img/img-presentation.jpg)
+![image alt](https://github.com/orozcoadrian-dev/secure-wave/blob/469bfdf006d628ec126aa44c3885daa3a9798f91/securewave_banner.png)
 
 # SecureWave - Cybersecurity Landing Page
 
