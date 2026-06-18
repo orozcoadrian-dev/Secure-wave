@@ -223,9 +223,11 @@ h1 {
     font-size: 1.1em;
 }
 
-.service-one, .service-two, .service-three
+
+
+/* Seleccionamos las secciones*/
+.services-presentation :is(.service-one, .service-two, .service-three)
 {
-    /* border: 1px solid red; */
     width: 25%;
     height: 54%;
     padding: 1.2em 2em;
@@ -236,13 +238,22 @@ h1 {
     box-shadow: 0 0 20px 0 #280c54;
 }
 
+.services-presentation :is(.service-one, .service-two, .service-three):hover
+{
+    box-shadow: 0 0 20px 25px #280c54;
+}
 
-.images-section2-services
+/* Seleccionamos las imagenes para dar movimiento con hover*/
+.services-presentation :is(.images-section2-services)
 {
     width: 360px;
     height: 260px;
 }
 
+.services-presentation :is(.images-section2-services):hover
+{
+    cursor: pointer;
+}
 
 .card-services
 {
@@ -510,7 +521,7 @@ th,td
     margin-top: 2.2em;
 }
 
-.labels-firstname, .label-middlename, .label-lastname, .label-secondlastname, .label-email, .label-company, .label-message
+.contact-form fieldset :is(.labels-firstname, .label-middlename, .label-lastname, .label-secondlastname, .label-email, .label-company, .label-message)
 {
     font-family: 'SecureWave-Bold';
     color: #A78BFA;
@@ -519,7 +530,7 @@ th,td
     text-transform: uppercase;
 }
 
-#input-firstname, #input-middlename, #input-lastname, #input-secondlastname, #input-email, #input-company, #message-form-contact
+.contact-form fieldset :is(#input-firstname, #input-middlename, #input-lastname, #input-secondlastname, #input-email, #input-company, #message-form-contact)
 {
     width: 95%;
     padding: 0.8em 0.9em;
@@ -723,3 +734,14 @@ details
     text-align: justify;
     padding: 0.8em 1em;
 }
+
+/* Nuevos avances*/
+tr > #secure-wave-head:hover
+{
+    color: #10B981;
+}
+
+tr > #other-companies-head:hover
+{
+    color: #EF4444;
+} 
