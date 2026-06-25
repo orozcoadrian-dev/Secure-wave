@@ -142,13 +142,13 @@ body
 }
 
 /* Mi código */
-.business-presentation {
+.section_presentation {
     background-color: #18181F;
     padding: 25px;
     margin-top: 5.5em;
 }
 
-h1 {
+.section_presentation__title {
     text-shadow: 0 0 100px #9D28D9;
     margin-top: 0.2em;
     text-align: center;
@@ -159,7 +159,7 @@ h1 {
     margin-bottom: 0.2em;
 }
 
-.paragraph-title 
+.section_presentation__text
 {
     margin-top: 0.2em;
     font-family: 'SecureWave-Regular';
@@ -168,7 +168,7 @@ h1 {
     font-size: 1.5em;
 }
 
-.img-presentation
+.section_presentation__image_presentation
 {
     width: 100%;
     height: 620px;
@@ -176,18 +176,18 @@ h1 {
     box-sizing: border-box;
 }
 
-.layer-img-presentation-container
+.section_presentation__layer
 {
     height: 100%;
     background-color: #000a;
 }
 
-.stronger-presentation
+.section_presentation__stronger
 {
     color: #9D28D9;
 }
 
-.services-presentation
+.section_services
 {
     margin-top: 4.5em;
     box-sizing: border-box;
@@ -196,7 +196,7 @@ h1 {
     background: linear-gradient(to bottom, #0E0E13, #0E0A16);
 }
 
-.containt-information
+.section_services__header
 {
     box-sizing: border-box;
     width: 100%;
@@ -205,7 +205,7 @@ h1 {
     margin-bottom: 2em;
 }
 
-#subtitle-sp
+.section_services__title
 {
     font-family: 'SecureWave-Titles';
     color: #9D28D9;
@@ -215,7 +215,7 @@ h1 {
     letter-spacing: 0.098em;
 }
 
-.paragraph-sp
+.section_services__text
 {
     margin-top: 0.6em;
     font-family: 'SecureWave-Regular';
@@ -223,10 +223,8 @@ h1 {
     font-size: 1.1em;
 }
 
-
-
 /* Seleccionamos las secciones*/
-.services-presentation :is(.service-one, .service-two, .service-three)
+.section_services__cards
 {
     width: 25%;
     height: 54%;
@@ -244,41 +242,40 @@ h1 {
 }
 
 /* Seleccionamos las imagenes para dar movimiento con hover*/
-.services-presentation :is(.images-section2-services)
+.section_services__image
 {
     width: 360px;
     height: 260px;
 }
 
-.services-presentation :is(.images-section2-services):hover
+.section_services__image:hover
 {
     cursor: pointer;
 }
 
-.card-services
+.section_services__card_info
 {
     margin-top: 2.2em;
     width: 100%;
 
 }
 
-.name-services-sc
+.title--services
 {
-    font-family: 'SecureWave-Titles';
     color: #F8FAFC;
     text-align: center;
     text-decoration: underline;
-    letter-spacing: 0.098em;
+    font-size: 1.4em;
 }
 
-.description-services-sc
+.text--description_services
 {
     font-family: 'SecureWave-Light';
     color: #94A3B8;
     text-align: center;
 }
 
-.why-should-you-choose-presentation
+.section_why_choose
 {
     width: 100%;
     height: 600px;
@@ -288,7 +285,7 @@ h1 {
     box-sizing: border-box;
 }
 
-.h2-why-choose-us
+.section_why_choose__title
 {
     font-family: 'SecureWave-Titles';
     color: #F8FAFC;
@@ -299,7 +296,7 @@ h1 {
     text-align: center;
 }
 
-.table-selection
+.section_why_choose__table
 {
     margin-top: 1.2em;
     margin-left: 15em;
@@ -311,28 +308,41 @@ h1 {
     border-radius: 10px;
 }
 
-th,td
+.section_why_choose__th, .section_why_choose__td
 {
     padding: 1em;
     border: 1px solid #292931;
     border-radius: 10px;
+    transition-property: color;
+    transition-duration: 1s;
 }
 
-.thead-choose-us
+/* Nuevos avances*/
+.th--securewave:hover
+{
+    color: #10B981;
+}
+
+.th--othercompanies:hover
+{
+    color: #EF4444;
+} 
+
+.section_why_choose__thead
 {
     font-family: 'SecureWave-Bold';
     color: #9D28D9;
     text-transform: uppercase;
 }
 
-.tbody-choose-us
+.section_why_choose__tbody
 {
     font-family: 'SecureWave-Regular';
     color: #F8FAFC;
     
 }
 
-.paragraph-why-choose-us
+.section_why_choose__text
 {
     margin-top: 2em;
     color: #94A3B8;
@@ -734,14 +744,3 @@ details
     text-align: justify;
     padding: 0.8em 1em;
 }
-
-/* Nuevos avances*/
-tr > #secure-wave-head:hover
-{
-    color: #10B981;
-}
-
-tr > #other-companies-head:hover
-{
-    color: #EF4444;
-} 
